@@ -1,4 +1,4 @@
-# Time Limit Exceeded
+# Time Limit Exceed
 class Solution:
     def fairCandySwap(self, A, B):
         """
