@@ -1,4 +1,4 @@
-#Accepted
+# Accepted
 
 class Solution:
     def arrayPairSum(self, nums):
