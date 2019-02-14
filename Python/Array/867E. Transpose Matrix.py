@@ -1,4 +1,4 @@
-# Accepted
+# 执行用时: 76 ms, 在Transpose Matrix的Python3提交中击败了85.70% 的用户
 class Solution:
     def transpose(self, A):
         """

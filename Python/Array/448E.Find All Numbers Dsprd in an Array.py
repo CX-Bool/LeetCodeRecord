@@ -1,4 +1,4 @@
-# Accepted
+# 执行用时: 172 ms, 在Find All Numbers Disappeared in an Array的Python3提交中击败了96.52% 的用户
 # must using extra space
 class Solution:
     def findDisappearedNumbers(self, nums):

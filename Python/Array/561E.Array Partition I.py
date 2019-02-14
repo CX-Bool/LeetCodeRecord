@@ -1,4 +1,4 @@
-# Accepted
+# 执行用时: 120 ms, 在Array Partition I的Python3提交中击败了99.62% 的用户
 
 class Solution:
     def arrayPairSum(self, nums):

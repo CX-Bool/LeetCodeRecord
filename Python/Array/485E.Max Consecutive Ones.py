@@ -1,4 +1,5 @@
-# Accepted
+# 我的提交执行用时92 ms
+# 已经战胜 77.29 % 的 python3 提交记录
 class Solution:
     def findMaxConsecutiveOnes(self, nums):
         """

@@ -1,4 +1,4 @@
-# Accepted
+# 执行用时: 112 ms, 在Monotonic Array的Python3提交中击败了96.58% 的用户
 class Solution:
     def isMonotonic(self, A):
         """
@@ -21,6 +21,24 @@ class Solution:
                 return False
         return True
 
-if __name__ == '__main__':
-    s=Solution()
-    s.isMonotonic([1,2,2,3])
+# 执行用时: 152 ms, 在Monotonic Array的Python3提交中击败了64.51% 的用户
+# class Solution:
+#     def isMonotonic(self, A):
+#         """
+#         :type A: List[int]
+#         :rtype: bool
+#         """
+#         if not A:
+#             return False
+#         increase = decrease = True
+#         pre = A[0]
+#         for i in A:
+#             if i > pre:
+#                 decrease = False
+#             elif i < pre:
+#                 increase = False
+#             pre = i
+#             if not increase and not decrease:
+#                 return False
+#         else:
+#             return True

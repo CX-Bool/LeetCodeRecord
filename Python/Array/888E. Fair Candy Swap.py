@@ -1,4 +1,4 @@
-# Accepted
+# 执行用时: 112 ms, 在Fair Candy Swap的Python3提交中击败了43.31% 的用户
 class Solution:
     def fairCandySwap(self, A, B):
         """
@@ -17,6 +17,15 @@ class Solution:
 
 
 
-if __name__ == '__main__':
-    s=Solution()
-    s.fairCandySwap([1,1],[2,2])
+# 执行用时: 4424 ms, 在Fair Candy Swap的Python3提交中击败了2.64% 的用户
+# class Solution:
+#     def fairCandySwap(self, A, B):
+#         """
+#         :type A: List[int]
+#         :type B: List[int]
+#         :rtype: List[int]
+#         """
+#         dif = (sum(A)-sum(B))//2
+#         for a in A:
+#             if a - dif in B:
+#                 return [a, a-dif]
