@@ -22,7 +22,6 @@ class Solution(object):
         j = len(height) - 1
         area = min(height[0], height[-1]) * (j - i)
         while i < j:
-
             temp_area = min(height[i], height[j]) * (j - i)
             area = max(area, temp_area)
             # print('%s, %s, %s, %s'%(area, temp_area, i, j))
