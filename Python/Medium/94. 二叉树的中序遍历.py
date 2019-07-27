@@ -17,3 +17,17 @@ class Solution(object):
         mid = [root.val]
         right = self.inorderTraversal(root.right)
         return left+mid+right
+# 迭代算法
+# class Solution:
+#     def inorderTraversal(self, root: TreeNode) -> List[int]:
+#         r, stack = [], []
+#         while True:
+#             while root:
+#                 stack.append(root)
+#                 root = root.left
+#             if not stack:
+#                 return r
+#             node = stack.pop()
+#             r.append(node.val)
+#             root = node.right
+#         return r
